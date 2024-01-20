@@ -32,3 +32,5 @@ If you would like to contribute to this project, feel free to open issues or sub
 
 This project is licensed under the [MIT License](LICENSE).
 Make sure to replace the [LICENSE] placeholder with the actual name of your license file, if applicable.
+
+[Live Demo](https://asifdecoder.github.io/Fyle-assignment/)
