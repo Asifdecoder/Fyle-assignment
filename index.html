@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span class="loader"></span>
+
+    <header>
+      <figure>
+        <img
+          src="https://avatars.githubusercontent.com/u/47385309?v=4"
+          alt="boogie"
+        />
+        <figcaption>
+          <i style="font-size: 2rem"><img src="./link.svg" alt="" /></i>
+          <p>
+            <a
+              style="font-weight: 500; font-size: 1.6rem"
+              target="_blank"
+              href=""
+              >link</a
+            >
+          </p>
+        </figcaption>
+      </figure>
+      <section>
+        <h1 id="name">John doe</h1>
+        <address>
+          <i><img src="./alternate-map-marker.svg" alt="dd" /></i>
+          <p>123 main street</p>
+        </address>
+        <article>
+          <p style="font-size: 1.8rem">dattebio</p>
+          <p style="font-size: 1.8rem">
+            Twitter: <a href="">https://twitter.com/home</a>
+          </p>
+        </article>
+      </section>
+      <input
+        value="Asifdecoder"
+        placeholder="Enter username"
+        id="repoSearch"
+        style="
+          border-radius: 7px;
+          height: 3rem;
+          padding: 0 15px 0 15px;
+          font-size: 16px;
+        "
+        type="text"
+      />
+      <button
+        id="button"
+        type="button"
+        style="
+          background-color: black;
+          color: white;
+          border-radius: 7px;
+          padding: 0.5rem;
+        "
+      >
+        Search
+      </button>
+      <label style="font-size: 1.7rem" for=""
+        >Select No.of repos to be displayed</label
+      >
+      <select name="" id="">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="40">40</option>
+        <option value="60">60</option>
+        <option value="80">80</option>
+        <option value="100">100</option>
+      </select>
+    </header>
+
+    <main>
+      <div>
+        <ul id="repoList"></ul>
+      </div>
+    </main>
+
+    <nav class="pagination"></nav>
+
+    <script src="app.js"></script>
+  </body>
+</html>

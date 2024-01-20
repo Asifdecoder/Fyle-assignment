@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  opacity: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e5ebea;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  padding: 2rem;
+  display: flex;
+  gap: 5rem;
+  background-color: lightgrey;
+  align-items: center;
+  border-bottom: 2px solid black;
+  font-family: poppins;
+}
+section > h1 {
+  font-size: 2rem;
+}
+figure img {
+  border-radius: 50%;
+  height: 11.973rem;
+  width: 11.973rem;
+}
+figcaption {
+  display: flex;
+  gap: 0.1rem;
+}
+figcaption > i > img {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+address {
+  font-size: 1.7rem;
+  display: flex;
+}
+address > i > img {
+  height: 1.2rem;
+  width: 1rem;
+}
+article p {
+  font-size: 1.5rem;
+}
+main {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#repo {
+  border-radius: 7px;
+  height: 3rem;
+  padding: 0 15px 0 15px;
+  font-size: 16px;
+}
+.container {
+  margin: 1.5rem;
+  padding: 1.5rem;
+  height: 25rem;
+  width: 40rem;
+  border: 2px solid black;
+  background-color: lightgrey;
+  border-radius: 2rem;
+  font-family: poppins;
+}
+.container > h1 {
+  font-size: 2rem;
+  font-family: poppins;
+}
+.container h1 p {
+  font-size: 3.5rem;
+}
+
+.pagination {
+  display: none;
+  justify-content: center;
+
+  align-items: center;
+}
+#prev {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5rem;
+  background-color: #27afda;
+  font-size: 2rem;
+}
+
+#currentPage {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5rem;
+  background-color: #9a7cd2;
+  font-size: 3rem;
+}
+
+#next {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5rem;
+  background-color: #27afda;
+  font-size: 2rem;
+}
+
+/* loader */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: white;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+select {
+  border-radius: 0.5rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+.topics {
+  background-color: #428bca;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
